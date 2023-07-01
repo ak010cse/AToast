@@ -13,7 +13,7 @@ allprojects {
 > Step 2. Add the dependency
 ```gradle
 dependencies {
-	        implementation 'com.github.ak010cse:AToast:Tag'
+	        implementation 'com.github.ak010cse:AToast:1.0.5'
 	}
 ```
 
