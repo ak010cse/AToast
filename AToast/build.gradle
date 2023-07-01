@@ -40,15 +40,16 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
-afterEvaluate{
+
+afterEvaluate {
     publishing {
         publications {
-            release(MavenPublication){
+            release(MavenPublication) {
                 from components.release
 
-                groupId ='com.github.ak010cse'
+                groupId = 'com.github.ak010cse'
                 artifactId = 'AToast'
-                version ='1.0.1'
+                version = '1.0.2'
             }
         }
     }
