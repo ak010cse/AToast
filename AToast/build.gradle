@@ -47,9 +47,6 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.ak010cse'
-                artifactId = 'AToast'
-                version = '1.0.2'
             }
         }
     }
